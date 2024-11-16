@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+margin: 200px;
+            display: flex;
+            justify-content: center;
+    background-color: #33FF57; /* Warna latar belakang default */
+    transition: background-color 0.5s ease;
+}
+.container {
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s;
+    width: 500px;
+}
+
+    .containerSMP {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    imgSMP{
+      grid-column: 1;
+      grid-row: 1;
+      width: 200px;
+    }
+
+.logo {
+    top: 0px;
+    width: 100px;
+    height: auto;
+    position: fixed;
+    margin-bottom: 20px;
+    /* Tambahkan sedikit margin di bawah logo */
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:ho
+
+/* Mengatur gambar logo */
+.logo {
+    position: absolute;
+    z-index: 10; /* Agar logo tetap di atas konten lainnya */
+}
+
+#logoKiri {
+    top: 0;
+    left: 0;
+}
+
+#logoKanan, #logoKanan2 {
+    top: 0;
+    right: 0;
+}
+
+/* Gaya umum untuk kontainer */
+.container {
+    text-align: center;
+    margin-top: 100px; /* Memberikan ruang di bagian atas untuk konten */
+
+}
+
+/* Gaya untuk heading dan tombol */
+h1, p, button {
+    margin: 10px;
+}
+
